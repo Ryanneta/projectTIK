@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FISIP</title>
+</head>
+<body>
+    <center>
+        <h1>Fakultas Ilmu Sosial dan Ilmu Politik</h1>
+    </center>
+    <h2>Terdiri dari prodi-prodi</h2>
+
+    {% for fisip in fisip %}
+    <li>{{ fisip }}</li>
+    {% endfor %}
+    <!-- <p>Program Studi Administrasi Publik</p>
+    <p>Program Studi Ilmu Komunikasi</p>
+    <p>Program Studi Ilmu Pemerintahan</p> -->
+</body>
+</html>

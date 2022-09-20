@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FK</title>
+</head>
+<body>
+    <center>
+        <h1>Fakultas Kedokteran</h1>
+    </center>
+    <h2>Terdiri dari prodi-prodi</h2>
+
+    {% for fk in fk %}
+    <li>{{ fk }}</li>
+    {% endfor %}
+    
+    <!-- <p>Prodi Kedokteran</p>
+    <p>Prodi Keperawatan S1</p>
+    <p>Prodi Keperawatan D3</p>
+    <p>Prodi S1 Gizi</p>
+    <p>Prodi Ilmu Keolahragaan</p> -->
+</body>
+</html>

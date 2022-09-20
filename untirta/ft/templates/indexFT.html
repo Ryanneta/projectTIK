@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FT</title>
+</head>
+<body>
+    <center>
+        <h1>Fakultas Teknik</h1>
+    </center>
+    <h2>Terdiri dari prodi-prodi</h2>\
+
+    {% for ft in ft %}
+    <li>{{ ft }}</li>
+    {% endfor %}
+
+    <!-- <p>Jurusan Teknik Elektro</p>
+    <p>Jurusan Teknik Industri</p>
+    <p>Jurusan Teknik Kimia</p>
+    <p>Jurusan Teknik Mesin</p>
+    <p>Jurusan Teknik Metalurgi</p>
+    <p>Jurusan Teknik Sipil</p>  -->
+</html>
